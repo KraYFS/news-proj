@@ -1,0 +1,79 @@
+@import "mixins";
+
+@font-face {
+  font-family: 'Montserrat' sans-serif;
+  src: local('Montserrat'),
+  url('../../fonts/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Akrobat';
+  src: local('Akrobat Bold'),
+  local('Akrobat-Bold'),
+  url('../../fonts/Akrobat/Akrobatbold.woff2') format('woff2'),
+  url('../../fonts/Akrobat/Akrobatbold.woff') format('woff'),
+  url('../../fonts/Akrobat/Akrobatbold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: 'Akrobat';
+  src: local('Akrobat SemiBold'),
+  local('Akrobat-SemiBold'),
+  url('../../fonts/Akrobat/Akrobatsemibold.woff2') format('woff2'),
+  url('../../fonts/Akrobat/Akrobatsemibold.woff') format('woff'),
+  url('../../fonts/Akrobat/Akrobatsemibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: local('OpenSans-Regular'),
+  local('OpenSans-Regular'),
+  url('../../fonts/OpenSans/OpenSans-Regular.woff2') format('woff2'),
+  url('../../fonts/OpenSans/OpenSans-Regular.woff') format('woff'),
+  url('../../fonts/OpenSans/OpenSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: local('OpenSans-Italic'),
+  local('OpenSans-Italic'),
+  url('../../fonts/OpenSans/OpenSans-Italic.woff2') format('woff2'),
+  url('../../fonts/OpenSans/OpenSans-Italic.woff') format('woff'),
+  url('../../fonts/OpenSans/OpenSans-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: local('OpenSans-Bold'),
+  local('OpenSans-Bold'),
+  url('../../fonts/OpenSans/OpenSans-Bold.woff2') format('woff2'),
+  url('../../fonts/OpenSans/OpenSans-Bold.woff') format('woff'),
+  url('../../fonts/OpenSans/OpenSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: 'Cambria';
+  src: local('Cambria'),
+  local('OpenSans-Bold'),
+  url('../../fonts/Cambria/Cambria.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  font-stretch: normal;
+}
