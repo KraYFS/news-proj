@@ -78,6 +78,60 @@
                             {{ $item->article->name }}
                         </h3>
                     </div>
+                    <div class="news__item">
+                    <div class="news__info">
+                        <div class="news__date">
+                            <img src="{{ asset('/img/calendar.svg') }}" width="18" height="18" alt="">
+                            {{ \Carbon\Carbon::parse( $item->article->public_at)->format('d.m.Y') }}
+                        </div>
+                        <div class="news__views">
+                            <img src="{{ asset('/img/view.svg') }}" width="22" height="16" alt="">
+                            {{ $item->article->views }}
+                        </div>
+
+                    </div>
+                    <div class="img__wrapper">
+                        <img src="{{ $item->article->photo }}" width="428" height="200" alt="">
+                        <div class="img__link__wrapper">
+                        <span class="img__link">
+                            читати статтю
+                            <a href="{{ route('news.info', ['slug' => $item->article->slug]) }}" class="news__arrow">
+                                <img src="{{ asset('/img/arr-right.svg') }}" width="13" height="12" alt="">
+                            </a>
+                        </span>
+                        </div>
+                    </div>
+                        <h3 class="news__title">
+                            {{ $item->article->name }}
+                        </h3>
+                    </div>
+                    <div class="news__item">
+                    <div class="news__info">
+                        <div class="news__date">
+                            <img src="{{ asset('/img/calendar.svg') }}" width="18" height="18" alt="">
+                            {{ \Carbon\Carbon::parse( $item->article->public_at)->format('d.m.Y') }}
+                        </div>
+                        <div class="news__views">
+                            <img src="{{ asset('/img/view.svg') }}" width="22" height="16" alt="">
+                            {{ $item->article->views }}
+                        </div>
+
+                    </div>
+                    <div class="img__wrapper">
+                        <img src="{{ $item->article->photo }}" width="428" height="200" alt="">
+                        <div class="img__link__wrapper">
+                        <span class="img__link">
+                            читати статтю
+                            <a href="{{ route('news.info', ['slug' => $item->article->slug]) }}" class="news__arrow">
+                                <img src="{{ asset('/img/arr-right.svg') }}" width="13" height="12" alt="">
+                            </a>
+                        </span>
+                        </div>
+                    </div>
+                        <h3 class="news__title">
+                            {{ $item->article->name }}
+                        </h3>
+                    </div>
                 @endforeach
             </div>
         </div>
