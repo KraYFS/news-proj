@@ -741,6 +741,9 @@ body {
         position: relative;
 
         .form__wrapper {
+            position: relative;
+            background-color: #fff;
+            z-index: 1000;
             border-radius: 4px;
             padding: 40px;
 

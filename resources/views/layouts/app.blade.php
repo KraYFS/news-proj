@@ -45,7 +45,7 @@
             </li>
             
              <li class="nav__item @if(Request::route()->getName() == 'common.form') active @endif">
-                <a href="{{ route('common.form') }}" class="nav__link">
+                <a class="nav__link" href="{{ route('common.contact') }}?openmodal=1">
                     {{ __('main.main.to_command') }}
                 </a>
             </li>           
