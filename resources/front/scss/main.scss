@@ -985,17 +985,23 @@ body {
     margin-left: 10px;
     background-color: $cMainYellowColor;
     color: #fff;
-    border-radius: 16px;
-    padding: 18px;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
     border: 1px solid $cMainYellowColor;
     transition: .3s all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .select_page_link:first-child {
+    color: #fff;
     margin-left: 0;
 }
 
 .select_page_link:hover {
+    text-decoration: none;
     color: $cMainYellowColor;
     background-color: #fff;
 }

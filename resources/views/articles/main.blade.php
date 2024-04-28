@@ -421,8 +421,10 @@
             </div>
         </div>
         <div class="select_page">
+            <a href="#" class="select_page_link">&#8592</a>
             <a href="#" class="select_page_link">1</a>
             <a href="#" class="select_page_link">2</a>
+            <a href="#" class="select_page_link">&#8594</a>
         </div>
     </div>
 @endsection
