@@ -420,5 +420,9 @@
 
             </div>
         </div>
+        <div class="select_page">
+            <a href="#" class="select_page_link">1</a>
+            <a href="#" class="select_page_link">2</a>
+        </div>
     </div>
 @endsection

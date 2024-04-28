@@ -975,6 +975,31 @@ body {
     }
 }
 
+.select_page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.select_page_link {
+    margin-left: 10px;
+    background-color: $cMainYellowColor;
+    color: #fff;
+    border-radius: 16px;
+    padding: 18px;
+    border: 1px solid $cMainYellowColor;
+    transition: .3s all;
+}
+
+.select_page_link:first-child {
+    margin-left: 0;
+}
+
+.select_page_link:hover {
+    color: $cMainYellowColor;
+    background-color: #fff;
+}
+
 .upload__image {
     cursor: pointer;
 
