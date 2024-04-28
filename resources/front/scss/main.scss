@@ -979,6 +979,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 .select_page_link {
@@ -998,6 +999,13 @@ body {
 .select_page_link:first-child {
     color: #fff;
     margin-left: 0;
+}
+
+
+.select_page_link:active {
+    text-decoration: none;
+    color: $cMainYellowColor;
+    background-color: #fff;
 }
 
 .select_page_link:hover {
