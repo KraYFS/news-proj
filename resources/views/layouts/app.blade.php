@@ -25,7 +25,7 @@
         <header class="header">
             <div class="container">
                 <a href="{{ route('common.main') }}" class="header__logo">
-    <img src="{{ asset('/img/logo_white.svg') }}" width="150" height="32" alt="">
+    <img src="{{ asset('/img/logo_white.svg') }}" width="180" height="50" alt="">
     </a>
     <a href="#mobile__menu" class="mobile__menu" uk-toggle style="display: none">
         <img class="menu__icon" src="{{ asset('/img/mobile_menu.svg') }}" width="24" height="14" alt="">
