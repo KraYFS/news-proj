@@ -52,7 +52,6 @@
                                     <img src="{{ asset('/img/view.svg') }}" width="22" height="16" alt="">
                                     {{ $items->views }}
                                 </div>
-
                             </div>
                         </div>
                         <div class="img__wrapper">

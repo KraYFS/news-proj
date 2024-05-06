@@ -18,7 +18,7 @@ class MainController extends Controller
         return view('articles.main', [
             'articles' => Article::query()->with([
                 'creators'
-            ])->where('is_active', 1)->orderBy('public_at', 'desc')->paginate(20),
+            ])->where('is_active', 1)->orderBy('public_at', 'desc')->paginate(9),
             'title' => __('main.name')
         ]);
     }
