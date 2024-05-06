@@ -66,16 +66,20 @@
                         <div class="img__wrapper">
                             <img src="{{ $item->article->photo }}" width="428" height="200" alt="">
                             <div class="img__link__wrapper">
-                        <span class="img__link">
-                            читати статтю
-                            <a href="{{ route('news.info', ['slug' => $item->article->slug]) }}" class="news__arrow">
-                                <img src="{{ asset('/img/arr-right.svg') }}" width="13" height="12" alt="">
-                            </a>
-                        </span>
+                                <span class="img__link">
+                                    <a href="{{ route('news.info', ['slug' => $item->article->slug]) }}">
+                                        читати статтю
+                                    </a>
+                                    <a href="{{ route('news.info', ['slug' => $item->article->slug]) }}" class="news__arrow">
+                                        <img src="{{ asset('/img/arr-right.svg') }}" width="13" height="12" alt="">
+                                    </a>
+                                </span>
                             </div>
                         </div>
                         <h3 class="news__title">
-                            {{ $item->article->name }}
+                            <a href="{{ route('news.info', ['slug' => $item->article->slug]) }}">
+                                {{ $item->article->name }}
+                            </a>
                         </h3>
                     </div>
                 @endforeach
