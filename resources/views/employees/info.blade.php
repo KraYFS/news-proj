@@ -52,7 +52,7 @@
             <div class="news__wrapper">
                 @foreach($employees->creator as $item)
                     <div class="news__item">
-                        <div class="news__info">
+                        <div class="news__info_person_page">
                             <div class="news__date">
                                 <img src="{{ asset('/img/calendar.svg') }}" width="18" height="18" alt="">
                                 {{ \Carbon\Carbon::parse( $item->article->public_at)->format('d.m.Y') }}
@@ -66,12 +66,14 @@
                         <div class="img__wrapper">
                             <img src="{{ $item->article->photo }}" width="428" height="200" alt="">
                             <div class="img__link__wrapper">
+                        <a href="{{ route('news.info', ['slug' => $item->article->slug]) }}">
                         <span class="img__link">
                             читати статтю
                             <a href="{{ route('news.info', ['slug' => $item->article->slug]) }}" class="news__arrow">
                                 <img src="{{ asset('/img/arr-right.svg') }}" width="13" height="12" alt="">
                             </a>
                         </span>
+                        </a>
                             </div>
                         </div>
                         <h3 class="news__title">

@@ -238,7 +238,6 @@ body {
         }
 
         .item__content {
-            align-self: end;
             padding: 20px;
 
             .name {
@@ -258,7 +257,7 @@ body {
                 line-height: 22px;
                 letter-spacing: -0.3px;
                 color: #545454;
-                margin-bottom: 17px;
+                margin-bottom: 73px;
             }
 
             .item__link {
@@ -314,7 +313,7 @@ body {
         padding: 24px;
 
         .person__name {
-            font-family: $akrobatFont;
+            font-family: $montserratFont;
             font-style: normal;
             font-weight: 700;
             font-size: 20px;
@@ -326,11 +325,12 @@ body {
 
         .person__subtitle {
             color: #545454;
+            font-family: $montserratFont;
             font-weight: 400;
             font-size: 18px;
             line-height: 22px;
             letter-spacing: -0.3px;
-            margin-bottom: 16px;
+            margin-bottom: 73px;
         }
 
         .person__description {
@@ -361,6 +361,25 @@ body {
 
 .mobile__canvas .mobile__menu .nav__item .nav__link.active {
     color: $greenColor;
+}
+
+.news__info_person_page {
+    padding: 16px 24px;
+    display: flex;
+    gap: 24px;
+
+    .news__date,
+    .news__views{
+                align-self: center;
+                display: flex;
+                align-items: center;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 19px;
+                letter-spacing: -0.3px;
+                color: $cMainYellowColor;
+                gap: 5px;
+            }
 }
 
 .news__wrapper {
@@ -399,19 +418,18 @@ body {
         }
 
         .news__title {
-            font-family: $akrobatFont;
+            font-family: $montserratFont;
             font-weight: 600;
-            font-size: 24px;
+            font-size: 20px;
             line-height: 29px;
             letter-spacing: -0.3px;
             color: $cMainBlackColor;
-
+            padding: 0px 16px;
             margin-bottom: 16px;
         }
 
         .news__info {
             display: flex;
-            padding: 16px 24px;
 
             img {
                 margin-right: 5px;
@@ -426,8 +444,8 @@ body {
                 align-self: center;
                 display: flex;
                 align-items: center;
-                font-weight: 600;
-                font-size: 14px;
+                font-weight: 700;
+                font-size: 16px;
                 line-height: 19px;
                 letter-spacing: -0.3px;
                 color: $cMainYellowColor;
@@ -493,12 +511,10 @@ body {
                 max-width: 200px;
 
                 .news__author {
-                    margin-right: 24px;
                     font-size: 16px;
-                    display: grid;
-                    grid-template-columns: 24px 1fr;
+                    display: flex;
+                    align-items: center;
                     grid-gap: 8px;
-                    margin-bottom: 8px;
 
                     .author__img {
                         width: 24px;
@@ -514,11 +530,13 @@ body {
 
                     .author__title {
                         align-self: center;
-                        font-size: 14px;
+                        font-size: 16px;
+                        font-weight: 700;
                         line-height: 17px;
                         text-decoration: none;
                         letter-spacing: -0.3px;
-                        //                        text-decoration-line: underline;
+                        font-family: $montserratFont;
+                        font-weight: 700;
                         color: $cMainBlackColor;
                     }
 
@@ -542,6 +560,7 @@ body {
 
 .article__img {
     margin-bottom: 64px;
+    border-radius: 16px;
 }
 
 .article__wrapper {
@@ -582,7 +601,7 @@ body {
     h2 {
 
         font-weight: 700;
-        font-size: 24px;
+        font-size: 32px;
     }
 
     h3 {
@@ -592,7 +611,7 @@ body {
     }
 
     p {
-        font-size: 16px;
+        font-size: 18px;
         line-height: 22px;
         letter-spacing: -0.3px;
         color: $cMainBlackColor;
