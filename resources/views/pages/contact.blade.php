@@ -27,19 +27,19 @@
             <div class="label required">
                 <img src="{{ asset('/img/icon_mail.svg') }}" alt="">{{ __('main.contacts_form.mail') }}
             </div>
-            <a href="mailto:media.hub.kiev@gmail.com">media.hub.kiev@gmail.com</a>
+            <a href="mailto:oleksmanushin@gmail.com">oleksmanushin@gmail.com</a>
         </div>
         <div class="input__wrapper">
             <div class="label required">
                 <img src="{{ asset('/img/phone_icon.svg') }}" alt="">{{ __('main.contacts_form.tel') }}
             </div>
-            <a href="tel:+380996456880">+380996456880</a>
+            <a href="tel:+380950289478">+38 095 028 94 78</a>
         </div>
         <div class="input__wrapper">
             <div class="label required">
                 <img src="{{ asset('/img/location_icon.svg') }}" alt="">{{ __('main.contacts_form.address') }}
             </div>
-            <p>Україна, 04053, місто Київ, пров. Киянівський, будинок 3-7, офіс 102-А</p>
+            <p>Україна, 03035, місто Київ, вул. Сурикова, будинок 3, корпус 37, офіс 7</p>
         </div>
     </div>
 </div>
