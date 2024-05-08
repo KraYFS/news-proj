@@ -40,10 +40,10 @@ body {
 }
 
 .container {
-    max-width: 1570px;
+    max-width: 1420px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 15px;
+
 }
 
 .header {
@@ -134,7 +134,7 @@ body {
 }
 
 .content {
-    margin-top: 10px;
+    margin-top: 46px;
 }
 
 .main__page {
@@ -193,7 +193,6 @@ body {
 
 .content__container {
     border-radius: 4px;
-    padding: 40px;
 
     .page__header {
         @include page_header;
@@ -205,7 +204,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     font-family: $montserratFont;
     font-weight: 700;
-    grid-gap: 16px 50px;
+    grid-gap: 50px 16px;
 
     .staff__item {
         display: grid;
@@ -385,7 +384,7 @@ body {
 .news__wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px 64px;
+    grid-gap: 64px 20px;
 
     .news__item {
         border-radius: 4px;
